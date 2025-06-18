@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta htpp-equiv="X-UA-compatible" content="ie=edge">
+<link rel="stylesheet" href="style00.css" />
+<title>Mon projet web</title>
+</head>
+<body>
+  <p class="nas" id="na"><strong>Formulaire de reservation Hotelier</strong>
+  <p/>
+<p >
+<form method="post" action="traitement.php">
+           
+     <p class="nas">HOTEL</p>
+ 
+             <label for="nomhotel">NOM HOTEL</label>: <input type="text" name="nomhotel" id="nomhotel" maxlength="10" placeholder="Ex:PALACE HOTEL" required  />
+             <label for="numerohotel">TELEPHONE HOTEL</label>: <input type="tel" name="numerohotel" id="numerohotel" maxlength="10"                         		placeholder="Ex:05098209" required  />
+    
+     <br /><br />
+
+             <label for="email">E-mail</label>: <input type="email" name="email" id="email" maxlength="20" size="25"      			                               		placeholder="Ex:palacehotel@gmail.com" required  />
+           
+     <br /><br />
+
+
+     <p class="nas">CLIENT</p>
+
+             <label for="nom">NOM</label>: <input type="text" name="nom" id="nom" maxlength="10" placeholder="Ex:KOUDA" required  />
+             <label for="prenom">PRENOM(S)</label>: <input type="text" name="prenom" id="prenom" size="30" maxlength="40"                         	         placeholder="Ex:Siaka" required  />
+     <br /><br />
+
+             <label for="nationalite">NATIONALITE</label>: <input type="text" name="nationalite" id="nationalite" maxlength="13"                                   	         placeholder="Ex:Burkinabè" required  />
+             <label for="numero">TELEPHONE</label>: <input type="tel" name="numero" id="numero" maxlength="10"                         		placeholder="Ex:05098209" required  />
+
+     <br /><br />
+            <label for="email">E-mail</label>: <input type="email" name="email" id="email" maxlength="20" size="25"      			placeholder="Ex:martinkouda29@gmail.com" required  />
+            <label for="N°">N° DE PIECE D'EDENTITE</label>: <input type="tel" name="N°" id="N°" maxlength="12" required  />
+
+     <br /><br />
+ 
+            <label for="TYPE CNIB">Type de Carte d'identité</label><br />
+                 <select name="chambre" id="TYPE CNIB">
+                    <option value="passeport">Passeport</option>
+                    <option value="carte d'identité">Carte d'identité</option>
+                    <option value="autre">Autre</option>
+                 </select>
+
+     <br /><br />
+
+
+<p class="nas">DETAILS DE LA RESERVATION </p>
+
+             <label for="date d'arrivée">DATE D'ARRIVEE</label>: <input type="date" name="" id="date d'arrivée" required  />
+             <label for="heure d'arrivée">HEURE D'ARRIVEE</label>: <input type="time" name="heure d'arrivée" id="heure d'arrivée"   	     required  />
+
+     <br /><br />
+ 
+           <label for="date depart">DATE DE DEPART</label>: <input type="date" name="date depart" id="date depart" required  />
+           <label for="heure de depart">HEURE DE DEPART</label>: <input type="time" name="heure de depart" id="heure de depart"                                                  	 <br /><br />
+
+     <br /><br />
+   
+           <label for="nbre de nuits ">NOMBRE DE NUITS</label>: <input type="number" name="nbre de nuits" id="nbre de nuits" required  />
+           <label for="nbre de chambre">NOMBRE DE CHAMBRES</label>: <input type="number" name="nbre de chambre" id="nbre de chambre"
+	       required/>  
+         
+    <br /><br />
+      
+           <label for="chambre">TYPE DE CHAMBRE</label>
+
+                   <select name="chambre" id="chambre">
+                        <option value="climatisée">Climatisée</option>
+                        <option value="ventilée">Ventilée</option>
+                   </select>
+    <br /><br />
+ 
+<p class="nas">INFORMATION DE PAIEMENT</p>
+          
+          methode de paiement  <br />
+  
+           <input type="radio" name="mode de paiement" id="mode de paiement" value="cash" required/><label for="mode de paiement">:Cash</label>
+           <input type="radio" name="mode de paiement" id="mode de paiement" value="chèque" required/><label for="mode de 	     	      paiement"> :Chèque</label> 
+           <input type="radio" name="mode de paiement" id="mode de paiement" value="carte de credit" required/><label for="mode de 	       paiement"> :Carte de credit</label> 
+           <input type="radio" name="mode de paiement" id="mode de paiement" value="virement" required/><label for="mode 	           	      de paiement"> :Virement</label>
+
+</p>
+<p><input type="submit" value="Envoyer mon formulaire" />
+</p>
+</form>
+</body>
+</html>
+
+
+

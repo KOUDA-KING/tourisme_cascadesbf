@@ -1,0 +1,42 @@
+.image
+{
+	display:flex;
+	margin-right:0.5px;
+	align-item:center;
+	justify-content: space-between;
+}
+.image1
+{
+	display:flex;
+	margin-right:400px;
+	align-item:center;
+	justify-content: space-between;
+}
+.image2
+{
+	display:flex;
+	margin-right:250px;
+	align-item:center;
+	justify-content: space-between;
+}
+.image3
+{
+	display:flex;
+	margin-right:-300px;
+	align-item:center;
+	justify-content: space-between;
+}
+.image4
+{
+	display:flex;
+	margin-right:260px;
+	align-item:center;
+	justify-content: space-between;
+}
+.image5
+{
+	display:flex;
+	margin-right:125px;
+	align-item:center;
+	justify-content: space-between;
+}
